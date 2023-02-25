@@ -142,6 +142,10 @@ header input {
   font-size: 22px;
   width: 100%;
 }
+
+
+
+
 .footer {
   align-items: center;
   justify-content: end;
@@ -172,6 +176,8 @@ body a {
 }
 
 /* BOTAO CADASTRAR */
+
+
 .btn:link,
 .btn:visited {
   text-transform: uppercase;

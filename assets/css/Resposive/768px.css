@@ -1,0 +1,48 @@
+@media screen and (max-width: 1023px) and (min-width: 700px) {
+
+
+
+
+
+
+
+
+    .header {
+        width: 100%;
+        margin: auto;
+        margin-left: 25px;
+        border: none;
+        margin-left: 12px;
+    }
+
+    .Resultado {
+        width: 100px;
+        padding: 5px;
+        font-size: 13px;
+        margin-left: 25px;
+    }
+
+    .Width-Cards {
+        width: 80px;
+        margin: auto;
+        font-size: 12px;
+        font-size: 7px;
+    }
+
+    .header .Width-Name {
+        font-size: 13px;
+        text-align: center;
+    }
+
+
+    /*BTN Cadastro */
+
+   .text-box{
+    margin-right: 156px;
+   }
+
+
+
+
+
+}

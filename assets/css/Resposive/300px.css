@@ -1,0 +1,71 @@
+@media screen and (max-width: 400px) and (min-width: 200px) {
+
+
+
+    .header {
+        width: 100%;
+        margin: auto;
+        margin-left: 25px;
+        border: none;
+        margin-left: -8px;
+        text-align: center;
+    }
+
+    .Resultado {
+        width: 40px;
+        padding: 4px;
+        font-size: 8px;
+        margin-left: -10px;
+    }
+
+    .Width-Cards {
+        width: 60px;
+        margin: auto;
+        font-size: 8px;
+    }
+
+    .Width-Phone {
+        display: none;
+    }
+
+    .Width-Envolope {
+        display: none;
+    }
+
+    .header .Width-Name {
+        font-size: 7px;
+        text-align: center;
+    }
+
+    .Dbr_In {
+        display: none;
+    }
+
+    .footer {
+        margin-right: -10px;
+    }
+
+    .footer button {
+        width: 95%;
+        font-size: 9px;
+        padding: 5px;
+        text-align: center;
+    }
+
+
+    /*BTN Cadastro */
+
+    .text-box {
+        margin-right: 61%;
+        font-size: 13px;
+        margin-top: -5px;
+    }
+
+    /* Cabeçalho */
+
+    header h1{
+        font-size: 20px;
+    }
+
+
+}

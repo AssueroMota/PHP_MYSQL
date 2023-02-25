@@ -38,18 +38,18 @@
     font-size: 15px;
 }
 .Rodapé .NameDiv 
-{width: 90%;}
+{width: 90%;
+}
 body {
     /*caso  a imagem não funcione colocamos uma cor */
     background-color: royalblue;
-    background-image: url("../assets/css/styleCadastra.css");
+    background-image: url("../img/Fundo_Cadastro.gif");
     /* background-image: url("Fundo_Cadastro.gif"); */
     background-size: cover;
     /* background-attachment: fixed;
     /* background-size: 100% 100%; */
     /* width: 100%; */
     height: 105vh;
-    
 }
 
 .form {
@@ -63,8 +63,6 @@ body {
     width: 72%;
     height: 120vh;
     height: auto;
-    
-
 }
 
 

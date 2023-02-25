@@ -16,19 +16,22 @@ $resultado_itens = mysqli_query($cnx, $itens);
   <title>Document</title>
   <script src="https://unpkg.com/phosphor-icons"></script>
   <link rel="stylesheet" href="assets/css/style.css">
-  <!-- <link rel="stylesheet" href="style.css"> -->
+
+  <!-- responsividade -->
+  <link rel="stylesheet" href="assets/css/Resposive/1024px.css">
+  <link rel="stylesheet" href="assets/css/Resposive/768px.css">
+  <link rel="stylesheet" href="assets/css/Resposive/410px.css">
+  <link rel="stylesheet" href="assets/css/Resposive/300px.css">
 </head>
 
 <script src="https://kit.fontawesome.com/395a561a45.js" crossorigin="anonymous"></script>
-
-
 
 
 <body>
 
 
   <header>
-    <h1>Manutenção Preventiva Litoraneus T.I</h1>
+    <h1>CRUD PHP + MYSQL Manutenção Preventiva</h1>
     <div class="input-wrapper">
       <label for="filter" class="sr-only">Pesquisar</label>
       <input id="filter" type="text" placeholder="Pesquisar">
@@ -47,7 +50,6 @@ $resultado_itens = mysqli_query($cnx, $itens);
 
   <div class="text-box cadastro">
     <a href="./assets/php/cadastro.php" class="btn btn-white btn-animate">Cadastrar</a>
-    <!-- <a href="cadastro.php" class="btn btn-white btn-animate">Cadastrar</a> -->
   </div>
 
 
@@ -106,7 +108,7 @@ $resultado_itens = mysqli_query($cnx, $itens);
           <li>
             <div class="header box">
               <!-- <i class="ph-graduation-cap"></i> -->
-              <h2 class="Width-Cards">
+              <h2 class="Width-Cards Width-Name">
                 <i class="fa-regular fa-user Card-Margin-Top"></i>
                 <?php echo $Nome; ?>
               </h2>
@@ -115,12 +117,12 @@ $resultado_itens = mysqli_query($cnx, $itens);
                 <i class="fa-sharp fa-solid Card-Margin-Top fa-warehouse"></i>
                 <?php echo $Setor ?>
               </p>
-              <p class="Width-Cards">
+              <p class="Width-Cards Width-Envolope">
                 <i class="fa-sharp fa-solid Card-Margin-Top fa-envelope"></i>
 
                 <?php echo $Email ?>
               </p>
-              <p class="Width-Cards">
+              <p class="Width-Cards Width-Phone">
 
                 <i class="fa-sharp fa-solid Card-Margin-Top fa-phone"></i>
 
@@ -153,13 +155,13 @@ $resultado_itens = mysqli_query($cnx, $itens);
                 <?php echo "Resta $dias dias"; ?>
               </p>
               <div class="footer btn-footer">
-                <form action="assets/php/editar.php" method="post">
+                <form action="./assets/php/editar.php" method="post">
                   <input type="hidden" name='id' value="<?php echo $Id; ?>">
                   <button class="Edit">Editar</button>
                 </form>
                 <br>
                 <div class="DelPro btn-footer">
-                  <form action="assets/php/excluir.php" method="post" class="DelForm">
+                  <form action="./assets/php/excluir.php" method="post" class="DelForm">
                     <input type="hidden" name='id' value="<?php echo $Id; ?>">
                     <button class="Delete" onclick="Excluir()">Excluir</button>
                   </form>
@@ -184,7 +186,7 @@ $resultado_itens = mysqli_query($cnx, $itens);
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
     integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
     crossorigin="anonymous"></script>
-    <script src="assets/javascript/Btn-Del.js"></script>
+    <script src="Btn-Del.js"></script>
   <!-- <script src="Btn-Del.js"></script> -->
 </body>
 
